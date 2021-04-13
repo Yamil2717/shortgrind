@@ -1,0 +1,74 @@
+.bg-error {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7rem 2rem;
+    background: url(../../img/RI8Q9HOWY4U01465961118458.jpg);
+}
+
+.container-error {
+    max-width: 1400px;
+    width: 90%;
+    min-height: 90%;
+}
+
+.content-error {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    color: var(--color-white-text);
+}
+
+.content-error h2 {
+    font-size: 17rem;
+}
+
+.content-error h4 {
+    position: relative;
+    font-size: 1.5em;
+    margin-bottom: 20px;
+    display: inline-block;
+    font-weight: 300;
+    padding: 10px 20px;
+    color: var(--color-dark);
+    background-color: var(--color-white-text);
+}
+
+.content-error p {
+    font-size: 1.2em;
+}
+
+.content-error button {
+    position: relative;
+    display: inline-block;
+    padding: 10px 25px;
+    outline: none;
+    font-size: 1.2rem;
+    cursor: pointer;
+    background: var(--color-dark-blue);
+    color: var(--color-white-text);
+    border: none;
+    margin-top: 25px;
+    border-radius: 25px;
+}
+
+.content-error button:hover {
+    color: var(--color-dark);
+    background-color: var(--color-blue);
+}
+
+@media screen and (max-width: 720px) {
+    .content-error h2 {
+        font-size: 10rem;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .content-error h2 {
+        font-size: 7rem;
+    }
+}

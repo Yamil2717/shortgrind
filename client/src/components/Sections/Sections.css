@@ -1,0 +1,132 @@
+.main-center {
+    padding: 40px;
+    background-image: url(../../img/bg.jpg);
+}
+
+.div-center {
+    display: grid;
+    padding: 20px;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 1fr;
+    grid-gap: 25px;
+    max-width: 1600px;
+    margin: 0 auto;
+}
+
+.section-how {
+    width: 100%;
+    height: 400px;
+    color: white;
+    position: relative;
+    border: 1px inset rgba(255, 255, 255, .3);
+    text-shadow: 0px 3px 3px rgba(255,255,255,0.5);
+}
+
+.section-how:before {
+    content: '';
+    display: block;
+    padding-top: 56.25%;
+}
+
+.bg-how {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.bg-how-wow {
+    background-image: url(https://w.wallhaven.cc/full/vg/wallhaven-vgzm35.png);
+}
+
+.bg-how-dyd {
+    background-image: url(../../img/wp2770237.jpg);
+}
+
+.bg-how-ce {
+    background-image: url(../../img/wp3342163.jpg);
+}
+
+.bg-how-dtd {
+    background-image: url(../../img/wp2082893.jpg);
+}
+
+.text-button-link {
+    position: absolute;
+    bottom: 25%;
+    left: 0;
+    right: 0;
+    display: block;
+    margin: 0 auto;
+    font-size: 2rem;
+    z-index: var(--z-tooltip);
+    text-align: center;
+    text-shadow: 0 0 28px rgba(0,0,0,0.75);
+}
+
+.buttons-link-absolute-one,
+.buttons-link-absolute-two {
+    width: 437px;
+    position: absolute;
+    z-index: var(--z-tooltip);
+    bottom: 10%;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.buttons-link-absolute-two {
+    width: 210px;
+}
+
+@media screen and (max-width: 1280px) {
+    .main-center {
+        padding: 0;
+    }
+    .div-center {
+        display: block;
+        padding: 0;
+    }
+    .div-how-to {
+        display: block;
+        width: 100%;
+        height: auto;
+        padding: 50px;
+        position: relative;
+        z-index: var(--z-tooltip);
+        background-color: rgba(29, 31, 34, 1);
+    }
+    .section-how {
+        width: 100%;
+        min-height: auto;
+        height: auto;
+        max-height: none;
+        overflow: visible;
+        margin-bottom: 5px;
+    }
+    .bg-how {
+        background-size: contain;
+        background-position: initial;
+    }
+    .text-button-link {
+        position: static;
+        margin: 0 0 40px;
+    }
+    .buttons-link-absolute-one,
+    .buttons-link-absolute-two {
+        position: static;
+    }
+}
+
+@media screen and (max-width: 540px) {
+    .buttons-link-absolute-one,
+    .buttons-link-absolute-two {
+        width: auto;
+    }
+}

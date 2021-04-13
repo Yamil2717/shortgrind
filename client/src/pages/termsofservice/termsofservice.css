@@ -1,0 +1,33 @@
+.terms-of-service-bg {
+    position: relative;
+    background: linear-gradient(180deg,rgba(29,31,34,.55) 0,rgba(13,34,59,.7511379551820728) 60%,rgba(3,36,75,1) 100%);
+}
+
+.center-terms {
+    max-width: 1600px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.title-terms {
+    font-size: 1.7rem;
+    text-align: center;
+    padding: 15px;
+    border-bottom: 2px solid var(--color-dark-blue);
+    color: var(--color-white-text);
+}
+
+.subtitle-terms {
+    padding: 8px 12px;
+    text-align: center;
+    font-size: 1.2rem;
+    color: #ccc;
+    background-color: rgba(29, 31, 34, 0.8);
+}
+
+.att-terms {
+    font-size: 1.1rem;
+    color: var(--color-blue);
+    text-align: right;
+    padding: 18px;
+}
